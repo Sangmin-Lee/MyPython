@@ -45,3 +45,37 @@ top5 = []   #정렬해서 큰 순서대로 5개 출력
 for steps in range(5) :
     top5.insert(steps, scores[steps])
 print(top5)
+
+for steps in id :           # 리스트 안에 리스트가 있으면 각각 출력
+    if isinstance(steps, list) :    #isinstance(변수, 자료형)
+        for steps2 in steps :
+            print(steps2)
+    else :
+        print(steps)
+
+scores.pop()
+scores.pop(3)
+print(scores.count(62))
+scores.extend([50, 60]) # 그냥 붙이기
+print(scores)
+scores.append([50, 60]) # 리스트로 붙이기
+print(scores)
+
+t1 = ()
+t2 = (1,) # t2 = (1)과 다름
+t6 = (1)
+t3 = (1,2,3)
+t4 = 1,2,3
+t5 = ('a', 'b', ('ab', 'cd'))
+
+print(t1)
+print(t2)
+print(t6)
+print(t3)
+print(t4)
+print(t5)
+print(t5[0])
+print(t5[1:])
+print(t2+t3)
+print(t4*3)
+# 변경 연산 시 에러 발생
