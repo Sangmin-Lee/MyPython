@@ -1,4 +1,4 @@
-#b = [1,2,3]
+﻿#b = [1,2,3]
 #c = ['Life', 'is', 'too', 'short']
 
 #print(b+c)      #strcat
